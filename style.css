@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+a {
+    color: black;
+}
+
+body {
+    width: 100%;
+}
+
+.backtotop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.fixednav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 0 10px 2px rgb(0, 0, 0, 0.15);
+    z-index: 9999;
+}
+
+.fixedspace {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.extraSpace {
+    display: flex;
+    padding: 25px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    flex-basis: 50%;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.rightbloom {
+    flex-basis: 50%;
+    text-align: right;
+    padding: 10px;
+}
+
+.rightbloom a {
+    background-color: #253993;
+    color: white;
+    font-size: 30px;
+    border-radius: 20px 20px 0 20px;
+    padding: 10px;
+    font-size: 26px;
+    padding-left: 25px;
+}
+
+.filmyform {
+    width: 100%;
+    background-image: url(Images/c700x420-7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay {
+    width: 100%;
+    background: rgb(0 0 0 / 47%);
+}
+
+.trans {
+    display: flex;
+    padding: 80px 0;
+}
+
+.lefttrans {
+    flex-basis: 60%;
+    color: white;
+}
+
+.lefttrans h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.lefttrans h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.lefttrans p {
+    line-height: 25px;
+}
+
+.righttrans {
+    flex-basis: 27%;
+    margin-left: 3%;
+}
+
+.righttrans form {
+    width: 97%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.righttrans form h3 {
+    margin: 10px;
+}
+
+.righttrans form input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.righttrans form p {
+    font-size: 12px;
+    margin: 15px;
+}
+
+.righttrans form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #253993;
+    color: white;
+}
+
+.CoreServices {
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.coreheading {
+    display: flex;
+    font-size: 26px;
+    justify-content: center;
+    padding: 35px 0;
+}
+
+.coreheading img {
+    width: 20px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.coreheading h3 {
+    margin-left: 5px;
+}
+
+.blocks {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    width: 30%;
+    margin: 1.5%;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+.block img {
+    width: 100%;
+    height: 200px;
+}
+
+.block h4 {
+    color: #253993;
+    font-size: 24px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.block p {
+    word-spacing: 1px;
+    text-align: justify;
+    padding: 15px;
+    line-height: 25px;
+    color: #6c717b;
+}
+
+.block button {
+    padding: 10px 20px;
+    background-color: #253993;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.whyus {
+    width: 100%;
+    background-color: white;
+}
+
+.tcenter {
+    text-align: center;
+}
+
+.tcenter h3 {
+    margin-bottom: 35px;
+}
+
+.flexi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.boxi {
+    flex-basis: 20%;
+    background-color: #f4f4f4;
+    padding: 30px 0;
+    box-shadow: 0 2px 5px 0.1px #e1e1e1;
+    border-radius: 5px;
+}
+
+.achievement {
+    width: 100%;
+    background-image: url(Images/c700x420-7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.meenu {
+    flex-basis: 15%;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+}
+
+.meenu p {
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+.positionedoverlap {
+    width: 970px;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    background-color: #253993;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.class p {
+    width: 600px;
+    margin: auto;
+    color: white;
+    line-height: 25px;
+}
+
+.moveit {
+    width: 15%;
+    height: auto;
+    position: absolute;
+    background-color: #ffcf40;
+    left: -80px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.moveit img {
+    width: 100%;
+}
+
+.moveit p {
+    color: black;
+}
+
+.mapembed {
+    flex-basis: 50%;
+    margin-right: 5%;
+}
+
+.addressboat {
+    text-align: center;
+    flex-basis: 40%;
+    padding: 10px;
+    padding-top: 45px;
+    line-height: 30px;
+    background-color: #f4f4f4;
+    color: #2f2f2f;
+}
+
+.addressboat h3 {
+    padding: 15px;
+}
+
+.FAQ {
+    width: 100%;
+    background-color: #fdfdfd;
+}
+
+.FAQ>.tcenter>h2 {
+    font-size: 28px;
+    color: #253993;
+}
+
+.border {
+    width: 60px;
+    height: 1px;
+    border-bottom: 2px solid #253993;
+    margin: 5px auto;
+}
+
+.questions {
+    width: 100%;
+    text-align: left;
+    background-color: white;
+    margin-top: 20px;
+
+}
+
+/* .questions ol li{
+    list-style:decimal;
+    padding: 15px;
+    border-bottom: 1px dashed #CEE1F8;
+    margin-left: 15px;
+
+    transition: 1s;
+
+}
+.questions ol li:hover{
+    transform: translateX(20px);
+    background-color: pink;
+} */
+.question {
+    display: flex;
+    background-color: white;
+    border-bottom: 1px dashed #CEE1F8;
+    color: #3B566E;
+    transition: 1s;
+    padding: 15px;
+}
+
+.question:hover {
+    background-color: pink;
+}
+
+.question:hover {
+    .no {
+        transform: translateX(15px);
+    }
+}
+
+.question p:hover {
+    transform: translateX(15px);
+}
+
+.no {
+    width: 15px;
+    height: 15px;
+    background-color: #253993;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin-right: 10px;
+    margin-top: 15px;
+    transition: 1s;
+}
+
+.question p {
+    width: 100%;
+    padding-left: 15px;
+    padding: 15px;
+    transition: 0.5s;
+}
+.foot{
+    background-color: #253993;
+}
+.ta{
+    width: 100%;
+    text-align: right;
+    padding: 15px;
+    font-size: 14px;
+}
+.ta a{
+    color: white;
+}
+.tac{
+    display: flex;
+    justify-content: space-between;
+}
+.tac p{
+    font-size: 14px;
+    color: white;
+    padding: 15px;
+}
+
+@media only screen and (min-width:200px) and (max-width:575px){
+    
+}
